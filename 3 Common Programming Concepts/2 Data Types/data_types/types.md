@@ -23,6 +23,8 @@ A number without a fractional component
 
 two types: f32 and f64
 
+Rust defaults to f64
+
 ## Boolean
 
 true and false
@@ -32,3 +34,33 @@ true and false
 char is the most primitive alphabetic type
 
 Unicode scalar value, not ASCII
+
+# Compound Types
+
+These can group multiple values into one type.
+
+2 primative types: tuples and arrays
+
+## Tuple
+
+Fixed length
+
+Stored on heap
+
+Each item in a tuple can be of a different type.
+
+Can optionally declasre the type in parentheses
+
+Use pattern matching to destructure a tuple
+
+Use period followed by an index (x.2) to access the value we want
+
+A tuple without any values is called a unit.  This value and type are both written () and represent an empty value or empty return type
+
+## Array
+
+Fixed length
+
+Stored on the stack
+
+Access using indexing
